@@ -867,7 +867,7 @@ def main():
                     ),
                 )
 
-                st.plotly_chart(fig, width='stretch')
+                st.plotly_chart(fig, use_container_width=True)
                 st.markdown('</div>', unsafe_allow_html=True)
             # -----------------------------------------------
 
